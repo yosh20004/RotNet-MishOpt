@@ -1,0 +1,11 @@
+# CPU版本的PyTorch依赖
+torch>=2.2.0+cpu
+torchvision>=0.17.0+cpu
+torchaudio>=2.2.0+cpu
+
+# 其他必要依赖
+tqdm>=4.66.0
+Pillow>=10.0.0
+onnx>=1.12.0
+onnxruntime>=1.12.0
+numpy>=1.21.0
