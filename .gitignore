@@ -24,6 +24,9 @@ data/
 models/*.onnx
 models/*.pth
 
+# 根目录生成的 ONNX 文件 - 测试生成的临时文件
+*.onnx
+
 # 性能分析文件
 perf_analysis/
 *.data
@@ -36,6 +39,9 @@ perf_analysis/
 *.log
 note.txt
 
+# 全局忽略所有 ONNX 文件
+*.onnx
+
 # opti 目录中只保留指定文件，其他忽略
 opti/*
 !opti/onnxruntime-linux-x64-1.22.0/
@@ -44,7 +50,6 @@ opti/*
 !opti/Makefile
 !opti/mymish_onnxpool.cpp
 !opti/test.py
-!opti/*.onnx
 
 # onnxruntime 全部保留
 !opti/onnxruntime-linux-x64-1.22.0/**
