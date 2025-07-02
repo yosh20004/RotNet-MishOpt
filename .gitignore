@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.Python
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 测试数据 - 不提交大文件
+data/
+
+# 性能分析文件
+perf_analysis/
+*.data
+*.folded
+*.unfold
+*.svg
+
+# 临时文件
+*.tmp
+*.log
+note.txt
+
+# opti 目录中只保留指定文件，其他忽略
+opti/*
+!opti/onnxruntime-linux-x64-1.22.0/
+!opti/acc_test.py
+!opti/avx_mathfun.h
+!opti/Makefile
+!opti/mymish_onnxpool.cpp
+!opti/test.py
+!opti/*.onnx
+
+# onnxruntime 全部保留
+!opti/onnxruntime-linux-x64-1.22.0/**
