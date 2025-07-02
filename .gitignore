@@ -20,6 +20,10 @@ env/
 # 测试数据 - 不提交大文件
 data/
 
+# 模型文件 - 作为 release 发布，不提交到仓库
+models/*.onnx
+models/*.pth
+
 # 性能分析文件
 perf_analysis/
 *.data
