@@ -66,4 +66,8 @@ cd opti/
 make
 ```
 
+## Acknowledgments
+
+- `avx_mathfun.h` is from [reyoung/avx_mathfun](https://github.com/reyoung/avx_mathfun.git) - Thanks for the excellent AVX math functions implementation!
+
 
